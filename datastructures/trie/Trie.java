@@ -9,7 +9,7 @@ class Trie {
         }
     }
 
-    private TrieNode root;
+    final private TrieNode root;
 
     public Trie() {
         root = new TrieNode();
