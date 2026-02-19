@@ -1,8 +1,10 @@
-public class Dsu {
+// package datastructures.dsu;
+
+public class DsuRank {
   private final int[] rank;
   private final int[] parent;
   
-  public Dsu(int n) {
+  public DsuRank(int n) {
     rank = new int[n + 1];
     parent = new int[n + 1];
     for (int i = 1; i <= n; i++) {
